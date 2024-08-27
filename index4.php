@@ -34,8 +34,6 @@ foreach ($rooms as $room) {
     <p><strong>Rate:</strong> $<?php echo htmlspecialchars($foundRoom['rate']); ?></p>
     <p><strong>Status:</strong> <?php echo htmlspecialchars($foundRoom['status']); ?></p>
 <?php else: ?>
-    <p>No room found with ID <?php echo htmlspecialchars($id); ?>.</p>
-<?php endif; ?>
 
 </body>
 </html>
